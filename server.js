@@ -17,6 +17,7 @@ app.use('/api/productos', routerProductos);
 
 
 
+
 const PORT = 8081;
 const server = app.listen(PORT, ()=>{
     console.log(`Servidor escuchando en puerto http://localhost:${PORT}`);
